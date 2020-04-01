@@ -893,7 +893,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2121759280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 620dadbd62b0d554ea6df2f697000d26, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fd619bf3dc2d094384e555a18cf13eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  mouseXInputName: Mouse X
+  mouseYInputName: Mouse Y
+  mouseSensitivity: 150
