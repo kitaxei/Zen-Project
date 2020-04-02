@@ -7,6 +7,7 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] private string mouseXInputName, mouseYInputName;
     [SerializeField] private float mouseSensitivity;
 
+    [SerializeField] private Transform playerBody;
     private float xAxisClamp;
 
     private void Awake()
@@ -44,7 +45,8 @@ public class PlayerLook : MonoBehaviour
             mouseY = 0.0f;
             ClampXAxisRotationToValue(90.0f);
         }
-        transform.Rotate(-transform.right * mouseY);
+        transform.Rotate(Vector3.left * mouseY);
+        playerBody.Rotate(Vector3.up * mouseX);
     }
     private void ClampXAxisRotationToValue(float value)
     { 
