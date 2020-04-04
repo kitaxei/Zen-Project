@@ -2,41 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class PlayerMove : MonoBehaviour
 {
+    [SerializeField] private string horizontalInputName;
+    [SerializeField] private string verticalInputName;
+    [SerializeField] private float movementSpeed;
 
-	public float movementSpeed;
+    private CharacterController charController;
 
-	// Use this for initialization
-	void Start()
-	{
+    private void Awake()
+    {
+        charController = GetComponent<CharacterController>();
 
-	}
+    }
+    private void Update()
+    {
+        PlayerMovement();
+    }
+    
+    private void PlayerMovement()
+    {
+        float horizInput = Input.GetAxis(horizontalInputName) * movementSpeed;
+        float vertInput = Input.GetAxis(verticalInputName) * movementSpeed;
 
-	//Update is called once per frame
-	void FixedUpdate()
-	{
+        Vector3 forwardMovement = transform.forward * vertInput;
+        Vector3 rightMovement = transform.right * horizInput;
 
-		if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey("w"))
-		{
-			transform.position += transform.TransformDirection(Vector3.forward) * Time.deltaTime * movementSpeed * 2.5f;
-		}
-		else if (Input.GetKey("w") && !Input.GetKey(KeyCode.LeftShift))
-		{
-			transform.position += transform.TransformDirection(Vector3.forward) * Time.deltaTime * movementSpeed;
-		}
-		else if (Input.GetKey("s"))
-		{
-			transform.position -= transform.TransformDirection(Vector3.forward) * Time.deltaTime * movementSpeed;
-		}
+        charController.SimpleMove(forwardMovement + rightMovement);
+    }
 
-		if (Input.GetKey("a") && !Input.GetKey("d"))
-		{
-			transform.position += transform.TransformDirection(Vector3.left) * Time.deltaTime * movementSpeed;
-		}
-		else if (Input.GetKey("d") && !Input.GetKey("a"))
-		{
-			transform.position -= transform.TransformDirection(Vector3.left) * Time.deltaTime * movementSpeed;
-		}
-	}
 }
