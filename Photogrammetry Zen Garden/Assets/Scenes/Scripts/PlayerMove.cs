@@ -10,10 +10,13 @@ public class PlayerMove : MonoBehaviour
 
     private CharacterController charController;
 
+    void Start()
+    { }
+   
     private void Awake()
     {
         charController = GetComponent<CharacterController>();
-
+        Cursor.visible = true;
     }
     private void Update()
     {
