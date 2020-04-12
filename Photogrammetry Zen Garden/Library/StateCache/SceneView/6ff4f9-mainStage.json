@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":0.0,"z":0.0},"rotation":{"x":0.08932462334632874,"y":0.8997146487236023,"z":-0.22388209402561189,"w":0.3653075098991394},"size":2036.95947265625,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":133.24803161621095,"y":-271.40234375,"z":161.8212890625},"rotation":{"x":0.30534860491752627,"y":-0.07030828297138214,"z":0.019825270399451257,"w":0.9499642252922058},"size":1981.3868408203125,"orthographic":false}
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch

@@ -74,7 +74,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 82
+=======
+  controlID: 109
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +223,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 55
+=======
+  controlID: 110
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +252,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 56
+=======
+  controlID: 111
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,9 +400,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 3a360000
     m_LastClickedID: 13882
     m_ExpandedIDs: 000000003236000000ca9a3b
+=======
+    m_SelectedIDs: 70360000
+    m_LastClickedID: 13936
+    m_ExpandedIDs: 000000006636000000ca9a3b
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +436,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000032360000
+=======
+    m_ExpandedIDs: 0000000066360000
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,10 +524,14 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 32}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 70fbffff
+=======
+      m_ExpandedIDs: aecfffff84dcffffe0e8ffff70fbffffbe330000
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: OldTorii (Missing Prefab)
@@ -565,9 +591,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+=======
+    m_Target: {x: 133.24803, y: -271.40234, z: 161.82129}
+    speed: 2
+    m_Value: {x: 133.24803, y: -271.40234, z: 161.82129}
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,6 +645,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.08932462, y: 0.89971465, z: -0.2238821, w: 0.3653075}
     speed: 2
     m_Value: {x: 0.08961385, y: 0.89869934, z: -0.22363181, w: 0.3664665}
@@ -620,6 +653,15 @@ MonoBehaviour:
     m_Target: 2036.9595
     speed: 2
     m_Value: 1949.2435
+=======
+    m_Target: {x: 0.3053486, y: -0.07030828, z: 0.01982527, w: 0.9499642}
+    speed: 2
+    m_Value: {x: 0.30516505, y: -0.071697086, z: 0.020273075, w: 0.9493802}
+  m_Size:
+    m_Target: 1981.3868
+    speed: 2
+    m_Value: 1896.064
+>>>>>>> parent of 7f49a62... Merge branch 'Bella-branch' of https://github.com/kitaxei/Zen-Project into Bella-branch
   m_Ortho:
     m_Target: 0
     speed: 2
