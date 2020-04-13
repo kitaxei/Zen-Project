@@ -27,15 +27,15 @@ public class PlayerLook : MonoBehaviour
 
         xAxisClamp += mouseY;
 
-        if(xAxisClamp > 90.0f)
+        if(xAxisClamp > 180.0f)
         {
-            xAxisClamp = 90.0f;
+            xAxisClamp = 180.0f;
             mouseY = 0.0f;
             ClampXAxisRotationToValue(270.0f);
         }
-        else if (xAxisClamp < -90.0f)
+        else if (xAxisClamp < -180.0f)
         {
-            xAxisClamp = -90.0f;
+            xAxisClamp = -180.0f;
             mouseY = 0.0f;
             ClampXAxisRotationToValue(90.0f);
         }
