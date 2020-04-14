@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":113.0,"y":954.0,"z":1186.0},"rotation":{"x":0.18309791386127473,"y":0.7864542603492737,"z":-0.2762618660926819,"w":0.5212414264678955},"size":35.7027702331543,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":0.0,"z":0.0},"rotation":{"x":-0.11997423321008682,"y":-0.027697468176484109,"z":0.003347797552123666,"w":-0.9923945069313049},"size":106.9047622680664,"orthographic":false}
+>>>>>>> parent of e97540a... Lighting Tests
